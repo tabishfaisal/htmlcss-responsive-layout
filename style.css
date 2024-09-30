@@ -1,0 +1,78 @@
+/*--reset css--*/
+ul,ol{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+}
+h1{
+    font-family:  "Nerko One", cursive;
+    color: orange;
+    border: 1px;
+    font-size: 18px;
+    background-color: white;
+    width: 1200px;
+    padding: 5px;
+}
+.main{
+    background-color: whitesmoke;
+}
+/*--Desktop version 1st--*/
+.container{
+    width: 750px;
+    margin: 0% auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-12{
+    width: 100%;
+}
+.col-8{
+    width: calc(100%*8/12);
+}
+.col-4{
+    width: calc(100%*4/12);
+    background-color: white;
+    box-shadow: 5px 5px 10px lightgray;
+    border: 1px;
+    margin-bottom: 5px;
+}
+.row-social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.btn-social{
+    background-color: white;
+    border-radius: 15px;
+}
+.row-banner{
+    width: 100%;
+    margin: 0% auto;
+}
+.img-tiramisu{
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+/*--section media query--*/
+/*--tablet--*/
+@media (max-width:600px) {
+    col-4{
+        width: 100%;
+    }
+
+    
+}
